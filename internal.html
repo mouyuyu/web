@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+
+    <title>国际疫情</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><p>首页</p></a></li>
+            <li><a href="news.html"><p>新闻</p></a></li>
+            <li><a href="internal.html"><p>国际疫情</p></a></li>
+            <li><a href="response.html"><p>八方驰援</p></a></li>
+            <li><a href="research.html"><p>科研成果</p></a></li>
+            <li><a href="protect.html"><p>日常防护</p></a></li>
+            <li><a onclick="window.history.go(-1)"><p>返回</p></a></li>
+
+        </ul>
+    </nav>
+    <div class="internal-box">
+        <img src="images/i1.jpg"/>
+        <h1>国际期刊《自然》致歉</h1>
+        <p>国际期刊《自然》就早前把新型冠状病毒，与中国及武汉挂勾致歉。</p>
+        <div class="second">
+            <img src="images/4.jpg"/>
+            <div>
+                <h1>全球新冠肺炎确诊病例新增84900例 累计超281万</h1>
+                <p>根据世卫组织最新实时统计数据，目前全球确诊新冠肺炎2810325例，死亡193825例，中国以外超过272万例。</p>
+                <p>当地时间4月26日，世卫组织发布最新一期新冠肺炎每日疫情报告。
+                    截至欧洲中部夏令时间4月26日10时（北京时间4月26日16时），全球新冠肺炎新增84900例，死亡新增6018例。
+                    其中疫情最为严重的欧洲区域已确诊1341851例（新增27185例），死亡122218例（新增2756例）。</p>
+            </div>
+            <img src="images/7.jpg"/>
+        </div>
+    </div>
+    
+    <div class="pop-box" id="feedback" style="display: none;">
+        <div class="pop-dialog">
+            <div class="pop-body">
+                <label>意见/建议反馈：</label>
+                <textarea name="message" rows="8" cols="40"></textarea>
+            </div>
+            <div class="pop-footer">
+                <div class="pop-close" onclick="document.getElementById('feedback').style.display = 'none'">取消</div>
+                <div class="pop-ok" onclick="document.getElementById('feedback').style.display = 'none'">确认</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pop-box" id="helpInfo" style="display: none;">
+        <div class="pop-dialog">
+            <div class="pop-body">
+                <h1>帮助信息：</h1>
+                <p>点击导航栏可跳转到其他页面，也可以点击返回上一页。</p>
+                <p>底部点击防疫攻坚战可以跳转到首页，点击意见反馈可以反馈建议或意见，点击帮助中心可以查看本页面到帮助信息。</p>
+            </div>
+            <div class="pop-footer">
+                <div class="pop-close" onclick="document.getElementById('helpInfo').style.display = 'none'">取消</div>
+                <div class="pop-ok" onclick="document.getElementById('helpInfo').style.display = 'none'">确认</div>
+            </div>
+        </div>
+    </div>
+<h1><center><img src="images/r6.png">封城后的武汉之变</center></h1>
+
+	<center><img src="images/r7.gif"></center> <center><img src="images/r8.gif"></center>
+
+   <center><img src="images/r11.gif"></center> <center><img src="images/r10.jpg"></center>
+    <footer>
+        <p onclick="window.location.href='index.html'">防疫攻坚战</p>
+        <p onclick="document.getElementById('feedback').style.display = 'block'">意见反馈</p>
+        <p onclick="document.getElementById('helpInfo').style.display = 'block'">帮助中心</p>
+    </footer>
+      <script type="text/javascript" src="js/carousel.js"></script>
+</body>
+</html>

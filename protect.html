@@ -1,0 +1,91 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+
+    <title>日常防护</title>
+</head>
+
+<body>ng  
+    <nav>
+        <ul>
+            <li><a href="index.html"><p>首页</p></a></li>
+            <li><a href="news.html"><p>新闻</p></a></li>
+            <li><a href="internal.html"><p>国际疫情</p></a></li>
+            <li><a href="response.html"><p>八方驰援</p></a></li>
+            <li><a href="research.html"><p>科研成果</p></a></li>
+            <li><a href="protect.html"><p>日常防护</p></a></li>
+            <li><a onclick="window.history.go(-1)"><p>返回</p></a></li>
+
+        </ul>
+    </nav>
+    <div class="pro-box">
+        <div class="pro-item">
+            <img src="images/p1.jpg"/>
+            <img src="images/p2.jpg"/>
+            <img src="images/p3.jpg"/>
+        </div>
+
+        <div class="pro-item">
+            <img src="images/p4.jpg"/>
+            <div>
+                <h1>新型冠状病毒感染的日常预防 </h1>
+                <p>
+                    (1）避免去疾病正在流行的地区。<br>
+                    （2）减少到人员密集的公共场所活动，尤其是空气流动性差的地方。<br>
+                （3）不要接触、购买和食用野生动物。<br>
+                （4）居室保持清洁，勤开窗，经常通风。<br>
+                （5）随时保持手卫生。<br>
+                （6）建议外出佩戴口罩。<br>
+                （7）保持良好卫生和健康习惯。<br>
+                （8）主动做好个人及家庭成员的健康监测。</p>
+            </div>
+            <img src="images/p5.jpg"/>
+
+        </div>
+
+        <div class="pro-item">
+            <img src="images/p6.jpg"/>
+            <img src="images/p7.jpg"/>
+            <img src="images/p8.jpg"/>
+        </div>
+
+
+    </div>
+    <div class="pop-box" id="feedback" style="display: none;">
+        <div class="pop-dialog">
+            <div class="pop-body">
+                <label>意见/建议反馈：</label>
+                <textarea name="message" rows="8" cols="40"></textarea>
+            </div>
+            <div class="pop-footer">
+                <div class="pop-close" onclick="document.getElementById('feedback').style.display = 'none'">取消</div>
+                <div class="pop-ok" onclick="document.getElementById('feedback').style.display = 'none'">确认</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pop-box" id="helpInfo" style="display: none;">
+        <div class="pop-dialog">
+            <div class="pop-body">
+                <h1>帮助信息：</h1>
+                <p>点击导航栏可跳转到其他页面，也可以点击返回上一页。</p>
+                <p>底部点击防疫攻坚战可以跳转到首页，点击意见反馈可以反馈建议或意见，点击帮助中心可以查看本页面到帮助信息。</p>
+            </div>
+            <div class="pop-footer">
+                <div class="pop-close" onclick="document.getElementById('helpInfo').style.display = 'none'">取消</div>
+                <div class="pop-ok" onclick="document.getElementById('helpInfo').style.display = 'none'">确认</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p onclick="window.location.href='index.html'">防疫攻坚战</p>
+        <p onclick="document.getElementById('feedback').style.display = 'block'">意见反馈</p>
+        <p onclick="document.getElementById('helpInfo').style.display = 'block'">帮助中心</p>
+    </footer>
+       <script type="text/javascript" src="js/carousel.js"></script>
+</body>
+</html>

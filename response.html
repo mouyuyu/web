@@ -1,0 +1,75 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <title>八方驰援</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><p>首页</p></a></li>
+            <li><a href="news.html"><p>新闻</p></a></li>
+            <li><a href="internal.html"><p>国际疫情</p></a></li>
+            <li><a href="response.html"><p>八方驰援</p></a></li>
+            <li><a href="research.html"><p>科研成果</p></a></li>
+            <li><a href="protect.html"><p>日常防护</p></a></li>
+            <li><a onClick="window.history.go(-1)"><p>返回</p></a></li>
+
+        </ul>
+    </nav>
+    <div class="help-box">
+        <video controls poster="https://pic.rmb.bdstatic.com/4b4fca390615baf7afb2b9ae8818f9d7.jpeg" src="https://vd3.bdstatic.com/mda-kbguvyqc4nph10qr/mda-kbguvyqc4nph10qr.mp4?playlist=%5B%22hd%22%5D">
+        </video>
+        <h1>各地继续援助湖北抗击疫情：医疗队驰援、物资供给 </h1>
+        <p>各地继续派出医疗队以及各种急需物资运往湖北，帮助疫区抗击疫情，共渡难关。</p>
+		<img src="images/r9.jpg">
+        <div class="help-item">
+            <a href="#"><img src="images/o1.jpg"/></a>
+            <a href="#"><img src="images/o2.jpg"/></a>
+            <a href="#"><img src="images/o3.jpg"/></a>
+        </div>
+        <div class="help-item">
+            <a href="#"><img src="images/o4.jpg"/></a>
+            <a href="#"><img src="images/o5.jpg"/></a>
+            <a href="#"><img src="images/o6.jpg"/></a>
+        </div>
+    </div>
+    <div class="pop-box" id="feedback" style="display: none;">
+        <div class="pop-dialog">
+            <div class="pop-body">
+                <label>意见/建议反馈：</label>
+                <textarea name="message" rows="8" cols="40"></textarea>
+            </div>
+            <div class="pop-footer">
+                <div class="pop-close" onClick="document.getElementById('feedback').style.display = 'none'">取消</div>
+                <div class="pop-ok" onClick="document.getElementById('feedback').style.display = 'none'">确认</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pop-box" id="helpInfo" style="display: none;">
+        <div class="pop-dialog">
+            <div class="pop-body">
+                <h1>帮助信息：</h1>
+                <p>点击导航栏可跳转到其他页面，也可以点击返回上一页。</p>
+                <p>本页视频可以通过暂停和播放操作。</p>
+                <p>底部点击防疫攻坚战可以跳转到首页，点击意见反馈可以反馈建议或意见，点击帮助中心可以查看本页面到帮助信息。</p>
+            </div>
+            <div class="pop-footer">
+                <div class="pop-close" onClick="document.getElementById('helpInfo').style.display = 'none'">取消</div>
+                <div class="pop-ok" onClick="document.getElementById('helpInfo').style.display = 'none'">确认</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p onClick="window.location.href='index.html'">防疫攻坚战</p>
+        <p onClick="document.getElementById('feedback').style.display = 'block'">意见反馈</p>
+        <p onClick="document.getElementById('helpInfo').style.display = 'block'">帮助中心</p>
+    </footer>
+        <script type="text/javascript" src="js/carousel.js"></script>
+</body>
+</html>

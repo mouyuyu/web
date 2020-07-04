@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+
+    <title>科研成果</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><p>首页</p></a></li>
+            <li><a href="news.html"><p>新闻</p></a></li>
+            <li><a href="internal.html"><p>国际疫情</p></a></li>
+            <li><a href="response.html"><p>八方驰援</p></a></li>
+            <li><a href="research.html"><p>科研成果</p></a></li>
+            <li><a href="protect.html"><p>日常防护</p></a></li>
+            <li><a onclick="window.history.go(-1)"><p>返回</p></a></li>
+
+        </ul>
+    </nav>
+    <div class="research-box">
+        <img src="images/r4.png">
+        <h1>中国加快新冠病毒疫苗研究 三款疫苗已进入临床试验 </h1>
+        <p>新冠肺炎疫情发生初期，中国科研人员就将疫苗研发作为了主攻方向之一。目前，中国布局了五条新冠病毒疫苗的技术路线，已有三款疫苗进入临床试验。
+            系列报道《强大科技支撑疫情防控阻击战》今天（4月30日）播出第三集《中国加快新冠病毒疫苗研究 三款疫苗已进入临床试验》。</p>
+        
+            <div class="res-box">
+                <div class="res-item">
+                    <a target="_blank" href="https://baijiahao.baidu.com/s?id=1665409579117039278&wfr=spider&for=pc"><img src="images/r2.jpg"></a>
+                    <p>美药管局前局长：中国新冠疫苗研发和投放速度上将超越美国 </p>
+                </div>
+                <div class="res-item">
+                    <a target="_blank" href="https://www.sohu.com/a/392260435_362042?_trans_=000014_bdss_dkwhfy"><img src="images/r3.png"></a>
+                    <p>北京：新冠病毒核酸日检测能力将提升到5万份以上 </p>
+                </div>
+                <div class="res-item">
+                    <a target="_blank" href="https://www.sohu.com/a/387969619_161795?scm=1002.46005d.16b016f01a2.PC_ARTICLE_REC_OPT&spm=smpc.content.fd-link.1.1588262169955MiyoRU4&_trans_=000014_bdss_dkwhfy"><img src="images/r5.jpg"></a>
+                    <p>谁能先找到新冠病毒“解药”？世卫组织：中美3种疫苗领先 </p>
+                </div>
+            </div>
+    </div>
+    <div class="pop-box" id="feedback" style="display: none;">
+        <div class="pop-dialog">
+            <div class="pop-body">
+                <label>意见/建议反馈：</label>
+                <textarea name="message" rows="8" cols="40"></textarea>
+            </div>
+            <div class="pop-footer">
+                <div class="pop-close" onclick="document.getElementById('feedback').style.display = 'none'">取消</div>
+                <div class="pop-ok" onclick="document.getElementById('feedback').style.display = 'none'">确认</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pop-box" id="helpInfo" style="display: none;">
+        <div class="pop-dialog">
+            <div class="pop-body">
+                <h1>帮助信息：</h1>
+                <p>点击导航栏可跳转到其他页面，也可以点击返回上一页。</p>
+                <p>三个图片信息部分点击可跳转到相关信息页面。</p>
+                <p>底部点击防疫攻坚战可以跳转到首页，点击意见反馈可以反馈建议或意见，点击帮助中心可以查看本页面到帮助信息。</p>
+            </div>
+            <div class="pop-footer">
+                <div class="pop-close" onclick="document.getElementById('helpInfo').style.display = 'none'">取消</div>
+                <div class="pop-ok" onclick="document.getElementById('helpInfo').style.display = 'none'">确认</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p onclick="window.location.href='index.html'">防疫攻坚战</p>
+        <p onclick="document.getElementById('feedback').style.display = 'block'">意见反馈</p>
+        <p onclick="document.getElementById('helpInfo').style.display = 'block'">帮助中心</p>
+    </footer>
+    <script type="text/javascript" src="js/carousel.js"></script>
+   
+</body>
+</html>

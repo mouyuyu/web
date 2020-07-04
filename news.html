@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <title>新闻</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><p>首页</p></a></li>
+            <li><a href="news.html"><p>新闻</p></a></li>
+            <li><a href="internal.html"><p>国际疫情</p></a></li>
+            <li><a href="response.html"><p>八方驰援</p></a></li>
+            <li><a href="research.html"><p>科研成果</p></a></li>
+            <li><a href="protect.html"><p>日常防护</p></a></li>
+            <li><a onclick="window.history.go(-1)"><p>返回</p></a></li>
+
+        </ul>
+	</nav>
+    <div class="news-box">
+
+            <div class="news-item">
+                <img src="images/n1.jpg"/>
+                <div>
+                    <a target="_blank" href="https://new.qq.com/omn/20200403/20200403A06CWE00.html?pc"><h1>新冠病毒有三种传播途径</h1></a>
+                    <p>世界卫生组织发布新冠肺炎疫情报告（第73期）称，随着全球新冠肺炎疫情发展，各方对新冠病毒传播途径的了解仍在继续并不断改善。
+                    报告简要概述了世卫组织关于新冠病毒传播途径的最新证据分析，包括有症状、症状前和无症状三种传播途径。</p>
+                </div>
+                
+            </div>
+            <div class="news-item">
+                <img src="images/n2.jpg"/>
+                <div>
+                    <a target="_blank" href="https://baijiahao.baidu.com/s?id=1664366086134716631&wfr=spider&for=pc">
+                        <h1>隔离是防止疫情扩散的重要方法</h1>
+                    </a>
+                    <p>隔离是防止疫情扩散的重要方法，防疫的最佳手段。新冠病毒主要有三种传播途径：接触、粪口、呼吸道传播。 隔离也分很多种，居家隔离、集体隔离，或借助负压病房、病床等设施隔离。
+                    防疫比较有效的是戴口罩对嘴巴鼻子进行隔离，所以口罩就是这次新冠疫情全民抗疫的武器。但全民抗疫是本末倒置的防疫方法，虽然取得的成效显著，但同样付出巨大代价。</p>
+                </div>
+            </div>
+
+            <div class="news-item">
+                <img src="images/n3.jpg"/>
+                <div>
+                    <a target="_blank" href="https://baijiahao.baidu.com/s?id=1665036965061252127&wfr=spider&for=pc"><h1>没证据表明新冠肺炎治愈者可免疫</h1></a>
+                    <p>世界卫生组织25日发布的每日疫情报告说，迄今尚无证据表明拥有新冠抗体的康复者可免于“二次感染”。</p>
+                </div>
+                
+            </div>
+    </div>
+    <div class="pop-box" id="feedback" style="display: none;">
+        <div class="pop-dialog">
+            <div class="pop-body">
+                <label>意见/建议反馈：</label>
+                <textarea name="message" rows="8" cols="40"></textarea>
+            </div>
+            <div class="pop-footer">
+                <div class="pop-close" onclick="document.getElementById('feedback').style.display = 'none'">取消</div>
+                <div class="pop-ok" onclick="document.getElementById('feedback').style.display = 'none'">确认</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pop-box" id="helpInfo" style="display: none;">
+        <div class="pop-dialog">
+            <div class="pop-body">
+                <h1>帮助信息：</h1>
+                <p>点击导航栏可跳转到其他页面，也可以点击返回上一页。</p>
+                <p>点击新闻标题可跳转到相关新闻页面。</p>
+                <p>底部点击防疫攻坚战可以跳转到首页，点击意见反馈可以反馈建议或意见，点击帮助中心可以查看本页面到帮助信息。</p>
+            </div>
+            <div class="pop-footer">
+                <div class="pop-close" onclick="document.getElementById('helpInfo').style.display = 'none'">取消</div>
+                <div class="pop-ok" onclick="document.getElementById('helpInfo').style.display = 'none'">确认</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p onclick="window.location.href='index.html'">防疫攻坚战</p>
+        <p onclick="document.getElementById('feedback').style.display = 'block'">意见反馈</p>
+        <p onclick="document.getElementById('helpInfo').style.display = 'block'">帮助中心</p>
+    </footer>
+       <script type="text/javascript" src="js/carousel.js"></script>
+</body>
+</html>
